@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>media-query-demo</title>
+    <style>
+        .demo1 {
+            border: 1px solid grey;
+        }
+        @media all and (min-width: 1000px) {
+            .demo1:after {
+                content: "大于等于1000px";
+
+            }
+        }
+
+        @media all and (max-width: 1300px){
+            .demo1:after {
+                content: "小于等于1300px";
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="demo1">
+
+    </div>
+</body>
+</html>

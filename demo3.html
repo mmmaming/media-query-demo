@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo3</title>
+    <style>
+        @import url("./demo2.css") screen and (min-width: 1200px);
+
+        .demo2:after {
+            content: "当页面宽度大于1200px时，使用@import引入demo2.css文件。背景变灰色";
+        }
+
+    </style>
+</head>
+<body>
+<div class="demo2"></div>
+</body>
+</html>
