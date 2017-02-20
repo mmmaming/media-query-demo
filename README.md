@@ -57,7 +57,7 @@
 | max-device-width|	定义输出设备的屏幕最大可见宽度。||
 | max-height|	定义输出设备中的页面最大可见区域高度。||
 | max-monochrome|	定义在一个单色框架缓冲区中每像素包含的最大单色原件个数。||
-| max-resolution|	定义设备的最大分辨率。||
+| max-resolution||	定义设备的最大分辨率。||
 | max-width|	定义输出设备中的页面最大可见区域宽度。||
 | min-aspect-ratio|	定义输出设备中的页面可见区域宽度与高度的最小比率。||
 | min-color|	定义输出设备每一组彩色原件的最小个数。||
