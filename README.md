@@ -6,6 +6,7 @@
 @media mediatype and|not|only (media feature) {
     CSS-Code;
 }
+// 详见demo1
 ```
 
 
@@ -14,11 +15,14 @@
 
 <link rel="stylesheet" media="mediatype and|not|only (media feature)" href="mystylesheet.css">
 
+<!--详见demo2-->
 ```
 
 ```css
 @import url("mystylesheet.css") screen;
 @import url("mystylesheet.css") print;
+
+// 详见demo3
 ```
 
 ### media type
